@@ -1,6 +1,6 @@
 import React from "react";
 
-const undefined = () =>{
+const errorpage = () =>{
     return(
         <>
          <h1>404 ERROR</h1>
@@ -8,4 +8,4 @@ const undefined = () =>{
     );
 }
 
-export default undefined;
+export default errorpage;

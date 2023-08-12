@@ -9,15 +9,15 @@ F5EFE7
 
 */
 body{
-    color: #4F709C;
+    /* color: #4F709C; */
 }
 
 /*Original styles*/
 
 .btn-primary 
 ,.btn-primary:hover{
-    background-color: #213555;
-    border: #213555;
+    background-color: #4F709C;
+    border: #4F709C;
     margin: auto;
     display: block;
     width: 150px;
@@ -77,15 +77,11 @@ body{
 }
 /*یاد گرفتن این تگها*/
 .carousel-pad{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 4) -1 2px);
-    gap: 30px;
-    /* overflow: hidden; */
+ padding-top: 100px;
 }
 
 .carousel-box-pad{
-    width: 320px;
+    width: 100%;
     color: #8a8a8a;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
