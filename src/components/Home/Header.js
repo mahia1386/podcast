@@ -14,9 +14,9 @@ const Header = () =>{
                     <li className='navbar-item-pad'>Abute me</li>
                 </ul>
             </nav>
-            <div className='header-pad'>
-                <div className='header-text-box-pad'>
-                    <h1 className='titel-header-pad'>
+            <div className='bigbox header-pad'>
+                <div  style={{padding: "120px" , paddingLeft: "150px"}}>
+                    <h1 style={{color: "#f7ede0" , fontSize: "80px"}}>
                         Padcasts 
                         <br/>
                         World

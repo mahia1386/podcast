@@ -1,15 +1,16 @@
+
 /*
 
 Color Pallet
 
 213555
 4F709C
-D8C4B6
-F5EFE7 
+
 
 */
+
 body{
-    /* color: #4F709C; */
+   background-color: #eee;
 }
 
 /*Original styles*/
@@ -26,15 +27,49 @@ body{
     padding: 5px;
 }
 
+.circle-img{
+    width: 200px;
+    border-radius: 200px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.img {
+    box-shadow: 0 8px 12px 0 #00000033, 0 10px 24px 0 #00000030;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 400;
+    color: #353535;
+    text-align: center;
+    padding: 12px;
+}
+
+.bigbox{
+    display: flex;
+    justify-content: space-between; 
+    height: 570px;
+    width: 100%;
+}
+
+.titel{
+    color: #f7ede0 ;
+    font-size: 80px;
+}
+
+.distance-boxes{
+    margin: 50px 0 100px 0;
+}
+
 /*Minor styles*/
 
 .header-pad{
-    height: 570px;
-    width: 100%;
     background-color: #213555;
     color: #ffffff ;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .navbar-pad{
@@ -53,16 +88,6 @@ body{
     font-weight: 500;
 }
 
-.header-text-box-pad{
-    padding: 120px;
-    padding-left: 150px;
-}
-
-.titel-header-pad{
-    color: #f7ede0 ;
-    font-size: 80px;
-}
-
 .header-img-box-pad{
     display: flex;
 }
@@ -75,7 +100,7 @@ body{
     top: 100px;
     left: 750px;
 }
-/*یاد گرفتن این تگها*/
+
 .carousel-pad{
  padding-top: 100px;
 }
@@ -85,8 +110,8 @@ body{
     color: #8a8a8a;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
-    /* margin-left:10px;
-    margin-right: 10px; */
+    margin-bottom: 15px;
+    background-color: white;
 }
 
 .subjects-imgbox-pad{
@@ -99,13 +124,20 @@ body{
 
 .subjects-img-pad{
     width: 130px;
-    border-radius: 200px;
     border: 3px solid #4F709C;
-    margin: auto;
-    display: block;
-    object-fit: cover;
 }
 
 .subjects-textbox-pad{
     padding: 35px;
+}
+
+.benefits{
+    background-color:#fef3ed;
+    display:flex ;
+    justify-content: left;
+}
+
+.foter{
+    background-color: #213555;
+    color: #eee;
 }
